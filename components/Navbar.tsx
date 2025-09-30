@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { SignedIn, UserButton } from '@clerk/nextjs';
-
 import MobileNav from './MobileNav';
+
+
 
 const Navbar = () => {
   return (
@@ -12,11 +13,11 @@ const Navbar = () => {
           src="/icons/logo.svg"
           width={32}
           height={32}
-          alt="yoom logo"
+          alt="ATC_C logo"
           className="max-sm:size-10"
         />
         <p className="text-[26px] font-extrabold text-white max-sm:hidden">
-          YOOM
+          ATC Conferencing
         </p>
       </Link>
       <div className="flex-between gap-5">
